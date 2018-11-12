@@ -1,0 +1,33 @@
+html {
+  font-family: Overpass, sans-serif;
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+  color: #fff;
+}
+
+.btn {
+  border-color: #fff;
+}
+
+.btn:hover {
+  background-color: #fff;
+  border-color: #fff;
+  color: #ff5e3a;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.structure {
+  border-bottom: solid 3px rgba(255, 255, 255, 1);
+}
+
+@media only screen and (min-width: 60em) {
+
+  .structure {
+    border-bottom: solid 0 rgba(255, 255, 255, 1);
+    border-right: solid 3px rgba(255, 255, 255, 1);
+  }
+
+}
